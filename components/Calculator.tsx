@@ -6,6 +6,19 @@ import Buttons from './Buttons'
 type Props = {}
 
 const Calculator = (props: Props) => {
+  function scope(){
+    var bitch = 'cunt'
+
+    {
+      let bitch2 = 'cunnnnt'
+    }
+
+    console.log(bitch2)
+  }
+
+  scope()
+  
+  
   return (
     <div className='flex flex-col gap-6 mx-6 min-w-[327px] max-w-[540px] w-full'>
       <div className='flex items-center justify-between'>
